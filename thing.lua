@@ -3,3 +3,4 @@ local vluascript = vluaasset:WaitForChild("vLua")
 vluascript.Parent = workspace
 vluaasset:Destroy()
 require(vluascript)([[print("hello world")]])()
+vluascript:Destroy()
